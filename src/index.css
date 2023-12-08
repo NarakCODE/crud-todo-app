@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Roboto:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-roboto px-4 bg-[#eee];
+	}
+}
+
+.todo-row {
+	background: #fff;
+}
+/* 
+.todo-row:nth-child(4n + 1) {
+	background: #caabf1;
+}
+
+.todo-row:nth-child(4n + 2) {
+	background: #a3ff94;
+}
+
+.todo-row:nth-child(4n + 3) {
+	background: #b3dcf2;
+} */
